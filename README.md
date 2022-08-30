@@ -58,3 +58,7 @@ For more information, please find the `relative/absolute path` in the Google or 
 
 `Biopython` is an external package of Python. Therefore The Python tutor in Dodona is no longer available to check the code using `Biopython`. I recommend you use the `print` function to check the variables' values.
 
+
+## Q5. Whose code is evaluated in the same Group?
+
+We will evaluate the last submission with correct answers. There is no need for two people to post the same code simultaneously, and there is no need for only one person to upload the code. Please study/submit freely and only pay attention to the last submission of each questions.
