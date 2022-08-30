@@ -8,10 +8,10 @@ Please refer to the following: [PyCharm instructions](https://www.jetbrains.com/
 
 
 
-### Q2. What happend in `pattern_count(*SeqIO.parse('data.fna', 'fasta'))`? 
+### Q2. What happens in `pattern_count(*SeqIO.parse('data.fna', 'fasta'))`? 
 
 
-First `SeqIO.parse will` read the file 'data.fna' and returns `SeqRecord` iterator. Let us assums that iterator is weird tuple. This iterator can be used as passing positional arguments of the function. In the case of pattern_count, the returned two sequence records from `data.fna` will be passed to first (`string`) and second (`pattern`) parameters of the function pattern_count. You can check this by submit the following example code to the Dodona system. 
+First `SeqIO.parse will` read the file 'data.fna' and returns `SeqRecord` iterator. Let us assume that the iterator is a weird tuple. This iterator can be used as passing positional arguments of the function. In the case of pattern_count, the returned two sequence records from `data.fna` will be passed to the first (`string`) and second (`pattern`) parameters of the function pattern_count. You can check this by submitting the following example code to the Dodona system. 
 
 ```
 
@@ -42,19 +42,19 @@ def pattern_count(string, pattern):
 
 	return 0
 ```
-For more information, please find the positional/keyword arguments in informatics lecture note or the following [Hyperlink](https://problemsolvingwithpython.com/07-Functions-and-Modules/07.07-Positional-and-Keyword-Arguments/)
+For more information, please find the positional/keyword arguments in the informatics lecture (functions) note or the following [Hyperlink](https://problemsolvingwithpython.com/07-Functions-and-Modules/07.07-Positional-and-Keyword-Arguments/)
 
 
 ### Q3. My code cannot read the file on `pattern_count(*SeqIO.parse('data.fna', 'fasta'))`
 
-Your file `data.fna` should be located in the same directory of your python code file. Or your can apply path. For example, you can specify the absolute path of the file 
+Your file `data.fna` should be located in the same directory of your python code file. Or you can apply the path. For example, you can specify the absolute path of the file. 
 ```
 pattern_count(*SeqIO.parse('C:\projects\Bioinformatics\problemset1\pattern_count\data.fna', 'fasta'))
 ```
 For more information, please find the `relative/absolute path` in the Google or Informatics lecture notes (Unix parts)
 
 
-### Q4. Python Tutor is not working 
+### Q4. Python Tutor is not working. 
 
-`Biopython` is an external package of Python. Therefore The Python tutor in Dodona is no longer available for checking the code using `Biopython`. I recommand you to use print function for checking the values in the variables.
+`Biopython` is an external package of Python. Therefore The Python tutor in Dodona is no longer available to check the code using `Biopython`. I recommend you use the `print` function to check the variables' values.
 
