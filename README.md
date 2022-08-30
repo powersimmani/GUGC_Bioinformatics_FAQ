@@ -1,4 +1,4 @@
-## GUGC Bioinformatics -   Problem Set 1: Algorithms and complexity
+## [FAQ] GUGC Bioinformatics -   Problem Set 1: Algorithms and complexity
 
 
 ### Q1. How to install `BioPython` on my PyCharm
