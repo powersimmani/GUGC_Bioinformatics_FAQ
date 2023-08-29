@@ -1,6 +1,6 @@
 # [FAQ] GUGC Bioinformatics -   Problem Set 1: Algorithms and complexity
 
-Informatics serves as a foundational prerequisite for this bioinformatics course. As such, we operate under the assumption that you possess a fundamental understanding of Python programming and Unix operating systems. Should you encounter difficulties in grasping the concepts introduced in this course, we strongly urge you to revisit essential topics. These include `file system relative/absolute paths`, `list/dictionary comprehensions` in Python, the use of `positional/keyword arguments` in function calls, as well as `object-oriented programming concepts like classes`.
+Informatics serves as a foundational prerequisite for this bioinformatics course. As such, we operate under the assumption that you possess a fundamental understanding of Python programming and Unix operating systems. Should you encounter difficulties in grasping the concepts introduced in this course, we strongly urge you to revisit essential topics. These include `file system relative/absolute paths`, `list/dictionary comprehensions` in Python, the use of `positional/keyword arguments` in function calls, as well as `object-oriented programming concepts` like `classes`.
 
 
 ## Q1. How to install `BioPython` on my PyCharm
