@@ -11,7 +11,7 @@ Please refer to the following: [PyCharm instructions](https://www.jetbrains.com/
 ## Q2. What happens in `pattern_count(*SeqIO.parse('data.fna', 'fasta'))`? 
 
 
-First `SeqIO.parse will` read the file 'data.fna' and returns `SeqRecord` iterator. Let us assume that the iterator is a weird tuple. This iterator can be used as passing positional arguments of the function. In the case of pattern_count, the returned two sequence records from `data.fna` will be passed to the first (`string`) and second (`pattern`) parameters of the function pattern_count. You can check this by submitting the following example code to the Dodona system. 
+First `SeqIO.parse` will read the file 'data.fna' and returns `SeqRecord` iterator. Let us assume that the iterator is a weird tuple. This iterator can be used as passing positional arguments of the function. In the case of pattern_count, the returned two sequence records from `data.fna` will be passed to the first (`string`) and second (`pattern`) parameters of the function pattern_count. You can check this by submitting the following example code to the Dodona system. 
 
 ```
 
