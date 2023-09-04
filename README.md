@@ -2,6 +2,8 @@
 
 Informatics serves as a foundational prerequisite for this bioinformatics course. As such, we operate under the assumption that you possess a fundamental understanding of Python programming and Unix operating systems. Should you encounter difficulties in grasping the concepts introduced in this course, we strongly urge you to revisit essential topics. These include `file system relative/absolute paths`, `list/dictionary comprehensions` in Python, the use of `positional/keyword arguments` in function calls, as well as `object-oriented programming concepts` like `classes`.
 
+## !!!Notice!!!
+[Ufora, shared K-mers] Please put your O(N+M) and O(N*M) solution codes into your answer sheet of Ufora question    
 
 ## Q1. How to install `BioPython` on my PyCharm
 
@@ -64,3 +66,22 @@ For more information, please find the `relative/absolute path` in the Google or 
 ## Q5. Whose code is evaluated in the same Group?
 
 We will evaluate the last submission with correct answers. There is no need for two people to post the same code simultaneously, and there is no need for only one person to upload the code. Please study/submit freely and only pay attention to the last submission of each questions.
+
+
+## Q6. Is multiplication a single operation or multiple additions?
+
+Multiplication is typically implemented as multiple additions at a fundamental level. For basic numeric types like integers and floating-point numbers, both the addition and multiplication operations are generally considered to have constant time complexity \( O(1) \). This is because the storage bits for these types are usually fixed at 64-bit or 32-bit.
+
+For instance, the time complexity of multiplication is \( O(N \times M) \) when the bit lengths of the numbers to be multiplied are \( N \) and \( M \) respectively. However, as \( N \) and \( M \) are usually fixed at 32 or 64, the actual time complexity converges to \( O(1024) \) or \( O(4096) \), which we treat as equivalent to \( O(1) \).
+
+For most computational problems, it is safe to assume that multiplication operates in constant time.
+
+*Note: Python has a more sophisticated system for its integers, allowing them to dynamically increase their storage bits. While this may affect time complexity, it is generally considered a special case and is not accounted for in standard time complexity calculations.*
+
+---
+
+## Q7. Is len() a single operation or does it count elements one by one?
+
+In Python, the `len()` function has a time complexity of \( O(1) \) for built-in data types like lists, tuples, strings, dictionaries, and sets. This is because these data structures store their length as an attribute, allowing for constant-time retrieval.
+
+*Note: If you define your own data types using classes, the time complexity of the `__len__` method will depend on how you've implemented the code.*
