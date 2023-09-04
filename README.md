@@ -70,9 +70,9 @@ We will evaluate the last submission with correct answers. There is no need for 
 
 ## Q6. Is multiplication a single operation or multiple additions?
 
-Multiplication is typically implemented as multiple additions at a fundamental level. For basic numeric types like integers and floating-point numbers, both the addition and multiplication operations are generally considered to have constant time complexity \( O(1) \). This is because the storage bits for these types are usually fixed at 64-bit or 32-bit.
+Multiplication is typically implemented as multiple additions at a fundamental level. For basic numeric types like integers and floating-point numbers, both the addition and multiplication operations are generally considered to have constant time complexity $ O(1) $. This is because the storage bits for these types are usually fixed at 64-bit or 32-bit.
 
-For instance, the time complexity of multiplication is $O(N \times M)$ when the bit lengths of the numbers to be multiplied are \( N \) and \( M \) respectively. However, as \( N \) and \( M \) are usually fixed at 32 or 64, the actual time complexity converges to  $O(1024)$ or $ O(4096) $, which we treat as equivalent to \( O(1) \).
+For instance, the time complexity of multiplication is $O(N \times M)$ when the bit lengths of the numbers to be multiplied are $ N $ and $ M $ respectively. However, as $ N $ and $ M $ are usually fixed at 32 or 64, the actual time complexity converges to  $O(1024)$ or $ O(4096) $, which we treat as equivalent to $ O(1) $.
 
 For most computational problems, it is safe to assume that multiplication operates in constant time.
 
@@ -82,6 +82,6 @@ For most computational problems, it is safe to assume that multiplication operat
 
 ## Q7. Is len() a single operation or does it count elements one by one?
 
-In Python, the `len()` function has a time complexity of \( O(1) \) for built-in data types like lists, tuples, strings, dictionaries, and sets. This is because these data structures store their length as an attribute, allowing for constant-time retrieval.
+In Python, the `len()` function has a time complexity of $ O(1) $ for built-in data types like lists, tuples, strings, dictionaries, and sets. This is because these data structures store their length as an attribute, allowing for constant-time retrieval.
 
 *Note: If you define your own data types using classes, the time complexity of the `__len__` method will depend on how you've implemented the code.*
